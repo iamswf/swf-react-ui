@@ -1,0 +1,37 @@
+{
+  "name": "swf-react-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styleguide": "npx styleguidist server --config config/styleguide.config.js",
+    "styleguide:build": "styleguidist build --config config/styleguide.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamswf/swf-react-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamswf/swf-react-ui/issues"
+  },
+  "homepage": "https://github.com/iamswf/swf-react-ui#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/prop-types": "^15.5.6",
+    "@types/react": "^16.7.7",
+    "react-dom": "^16.6.3",
+    "react-styleguidist": "^8.0.6",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1"
+  }
+}
