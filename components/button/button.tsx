@@ -149,7 +149,7 @@ export default class Button extends React.Component<ButtonProps, any> {
                 onClick={this.handleClick}
                 ref={this.saveButtonRes}
             >
-            
+                {iconNode}{kids}
             </button>
         );
     }

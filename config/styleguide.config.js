@@ -1,6 +1,6 @@
 module.exports = {
     webpackConfig: require('./webpack.config.js'),
-    components: '../components/**/*.{ts,tsx}',
+    components: '../components/**/index.{ts,tsx}',
     sections: [
         {
             name: 'Introduction',
@@ -9,9 +9,10 @@ module.exports = {
         {
             name: 'UI Components',
             content: '../docs/ui.md',
-            components: '../components/**/*.{ts,tsx}',
+            components: '../components/**/index.{ts,tsx}',
             exampleMode: 'expand', // 'hide' | 'collapse' | 'expand'
             usageMode: 'expand' // 'hide' | 'collapse' | 'expand'
         }
-    ]
+    ],
+    ignore: ['../components/**/style/*.{ts,tsx}']
 };
